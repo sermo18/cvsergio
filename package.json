@@ -1,6 +1,10 @@
 {
   "name": "cvsergio",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "a really cool app",
+  "engines": {
+    "node": "12.11.1"
+  },
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.1.2",
@@ -16,7 +20,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "node index.js",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
