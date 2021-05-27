@@ -1,24 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./assets/css/App.css";
+// Componentes
+import Main from "./components/Main"
+// function holaMundo(nombre){
+//   var presentacion = ( <h2> Hola me llamo {nombre}</h2>);
+//   return presentacion;
+// }
 function App() {
+  // var nombre = "Sergio";
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <Main></Main>
   );
 }
 

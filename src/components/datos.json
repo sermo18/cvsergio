@@ -1,0 +1,124 @@
+{
+  "skills": [
+    {
+      "name": "HTML",
+      "value": 90
+    },
+    {
+      "name": "CSS",
+      "value": 90
+    },
+    {
+      "name": "JavaScript",
+      "value": 90
+    },
+    {
+      "name": "Php",
+      "value": 90
+    },
+    {
+      "name": "Laravel",
+      "value": 70
+    },
+    {
+      "name": "Vue",
+      "value": 70
+    },
+    {
+      "name": "TypeScript",
+      "value": 70
+    },
+    {
+      "name": "SQL",
+      "value": 70
+    },
+    {
+      "name": "MariaDB",
+      "value": 80
+    },
+    {
+      "name": "Java",
+      "value": 70
+    },
+    {
+      "name": "Spring Boot",
+      "value": 50
+    },
+    {
+      "name": "WordPress",
+      "value": 70
+    },
+    {
+      "name": "Docker",
+      "value": 60
+    },
+    {
+      "name": "Bootstrap",
+      "value": 80
+    },
+    {
+      "name": "Tailwind",
+      "value": 60
+    },
+    {
+      "name": "Git",
+      "value": 60
+    },
+    {
+      "name": "React",
+      "value": 50
+    },
+    {
+      "name": "Node",
+      "value": 50
+    }
+  ],
+  "estudios" : [
+    {
+        "centro": "IES Enric Valor",
+        "fechaEntrada":"08/09/2013",
+        "fechaSalida":"03/05/2016",
+        "titulacion":"Bachillerato",
+        "img":"../assets/img/enric.png"
+    },
+    {
+        "centro": "Universidad de Valencia",
+        "fechaEntrada":"08/09/2017",
+        "fechaSalida":"03/01/2019",
+        "titulacion":"Finanzas y Contabilidad",
+        "img":"../assets/img/Uni.jpg"
+    },
+    {
+        "centro": "IES La Sénia",
+        "fechaEntrada":"08/09/2019",
+        "fechaSalida":"26/06/2021",
+        "titulacion":"FP Grado Superior, Desarrollo de aplicaciones web",
+        "img":"../assets/img/senia.jpg"
+    }
+
+
+  ],
+  "experiencia" : [
+    {
+        "centro": "ALMACEN DE TAPICERIA GOMEZ SL",
+        "fechaEntrada":"14/01/2019",
+        "fechaSalida":"03/02/2021",
+        "jornada": "Jornada parcial",
+        "empleo":"Mozo de almacén",
+        "ubicacion":"Paiporta, Comunidad Valenciana / Comunitat Valenciana, España"
+
+    },
+    {
+        "centro": "ITI - Instituto Tecnológico de Informática",
+        "fechaEntrada":"03/02/2021",
+        "fechaSalida":"04/06/2021",
+        "jornada": "Jornada parcial",
+        "empleo":"Web Developer",
+        "ubicacion":"Valencia/València, Comunidad Valenciana / Comunitat Valenciana, España"
+        
+    }
+
+
+  ]
+
+}
