@@ -2,8 +2,10 @@
   "name": "cvsergio",
   "version": "1.0.0",
   "description": "a really cool app",
+  "main": "src/main.js",
   "engines": {
-    "node": "12.11.1"
+    "node": "v14.15.4", 
+    "npm": "7.14.0"
   },
   "private": true,
   "dependencies": {
@@ -11,6 +13,7 @@
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "env-cmd": "^10.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router": "^5.2.0",
@@ -20,7 +23,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "craco start",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
