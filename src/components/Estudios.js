@@ -9,7 +9,7 @@ class Estudios extends Component {
         <div className="grid grid-cols-3 gap-4 p-12">
           {this.props.estudios.map((estudio, i) => (
             <div key={i} className=" card p-4">
-              <div className="containerCard grid grid-cols-3">
+              <div className="containerCard grid grid-cols-3 sm:grid-cols-1">
                 <div>
                   {(() => {
                     if (i === 0) {

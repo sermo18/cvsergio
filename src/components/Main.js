@@ -24,7 +24,7 @@ class Main extends Component {
     // Web Developer - Vue.js, JavaScript, Node.js, TypeScript, PHP, SQL, PL/SQL, MySQL, Mariadb, Java, Spring boot, Prometheus, Laravel, WordPress, HTML, CSS, Bootstrap, Vuetify, Docker, GitLab.
     return (
       <div className="App">
-        <header className="App-header 	py-5">
+        <header className="App-header py-5">
           <div>
             <img src={logo} className="App-logo rounded-full " alt="logo" />
             <h1 className="italic text-3xl">

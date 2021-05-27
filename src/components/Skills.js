@@ -8,7 +8,7 @@ class Skills extends Component {
     return (
       <div className="skills container p-12 mx-auto" id="skills">
         <h1 className="text-black italic text-4xl p-2" >Skills</h1>
-        <div className="grid grid-cols-3 gap-4 p-12">
+        <div className="grid grid-cols-3 sm:grid-cols-1 gap-4 p-12">
           {this.props.skills.map((skill, i) => (
             <div key={i} className="p-4">
               <Progress
